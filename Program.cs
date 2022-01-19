@@ -10,6 +10,14 @@ namespace GeekBrains.OOP.Lesson6.Task2
     {
         static void Main(string[] args)
         {
+            Rectangle rect = new Rectangle();
+            Circle circ = new Circle();
+            Figure fig = new Figure();
+            fig.ChangeFigureColor("yellow");
+            fig.ChangeVisibility(true);
+            string a=rect.VerticalMovement();
+            string b = circ.HorizontalMovement();
+            Console.ReadLine();
         }
     }
 }
